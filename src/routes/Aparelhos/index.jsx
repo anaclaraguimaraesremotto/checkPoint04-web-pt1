@@ -12,7 +12,7 @@ export default function Aparelhos(){
         'samsung-m54 (4).jpg'
       ]
       
-      return (
+      return (                     
         <main>
           <h1>Aparelhos</h1>
           {listaAparelhos.map((aparelho, index) => (
