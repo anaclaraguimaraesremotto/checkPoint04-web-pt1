@@ -4,7 +4,6 @@ export const listaAparelhos = [
         marca: 'Samsung',
         descricao: 'Tablet Samsung S6 Lite P619 com Caneta S Pen, Capa Protetora, Tela 10.4", 128GB, 4G, Wi-fi, Câmera 8MP, Android 12 e Processador Octa Core - Cinza',
         preco: '2.249,10',
-        foto: "samsung-s6-lite.jpg"
     },
     {
         modelo: 'iPhone 13',

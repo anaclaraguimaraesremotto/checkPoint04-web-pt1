@@ -10,7 +10,6 @@ export default function Aparelhos(){
         'motorola-moto-e22.jpg',
         'apple-ipad-pro.jpg',
         'samsung-m54 (4).jpg'
-        
       ]
       
       return (
