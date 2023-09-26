@@ -16,7 +16,7 @@ export default function Aparelhos(){
         <main>
           <h1>Aparelhos</h1>
           {listaAparelhos.map((aparelho, index) => (
-            <div key={aparelho.modelo}>
+            <div className="aparelhos" key={aparelho.modelo}>
               <img src={imagens[index]} alt={`Imagem do ${aparelho.modelo}`} />
               <Link to={`/aparelhos/visualizar/${aparelho.marca}/${aparelho.modelo}`}>
                 {aparelho.modelo}

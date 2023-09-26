@@ -7,4 +7,14 @@
 
 .body{
     background-image: linear-gradient(to bottom, #28004d, #7700e6);
+    color: white;
+}
+
+.aparelhos{
+    grid-area: 150px;
+    
+    & img{
+        width: auto;
+    }
+    
 }
