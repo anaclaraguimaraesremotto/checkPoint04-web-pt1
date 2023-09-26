@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './routes/Error/index.jsx'
 import Home from './routes/Home/index.jsx'
 import Aparelhos from './routes/Aparelhos/index.jsx'
-import VisualizarIpad from './routes/VisualizarIpad/index.jsx'
+import VisualizarAparelhos from './routes/VisualizarAparelhos/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <Aparelhos/>
       },
       {
-        path: '/aparelhos/visualizar/apple/ipad-pro',
-        element: <VisualizarIpad/>
+        path: '/aparelhos/visualizar/:marca/:modelo',
+        element: <VisualizarAparelhos/>
       }
     ]
   }
