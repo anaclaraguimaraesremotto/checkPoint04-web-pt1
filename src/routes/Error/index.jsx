@@ -11,7 +11,7 @@ export default function Error(){
 
                     </div>
                     <div className="grid-error2">
-                        <button> <Link className="link" to='/'>Voltar</Link></button>
+                        <button> <Link className="link" to='/'>Voltar para a página principal</Link></button>
                     </div>
                 </div>
             </div>
