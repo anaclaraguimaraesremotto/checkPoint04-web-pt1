@@ -7,4 +7,68 @@
 
 .body{
     background-image: linear-gradient(to bottom, #28004d, #7700e6);
+    min-height: calc(100vh);
+}
+
+.error{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    .grid-container {
+        display: grid;
+
+        & .grid-error1 {
+
+            & h1 {
+                color: white;
+            }
+        }
+    
+        & .grid-error2 {
+            padding-top: 10px;
+            display: grid; 
+            justify-content: center;
+
+            & button{
+                background-color: #9148d6;
+                padding: 10px 15px;
+                border: #28004d;
+                border-radius: 7px;
+                box-shadow: 4px 5px 8px #28004d99;
+                
+                & .link {
+                    color: white;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    & div{
+    width: 100%;
+
+    
+    }
+
+    & h1{
+        color: white;
+    width: 100%;
+
+    }
+    
+    & .link {
+        color: white;
+    width: 100%;
+
+        text-decoration: none;
+    } */
 }
