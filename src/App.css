@@ -10,6 +10,15 @@
     min-height: calc(100vh);
 }
 
+.aparelhos{
+    grid-area: 150px;
+    
+    & img{
+        width: auto;
+    }
+    
+}
+
 .error{
     display: flex;
     height: 100vh;
