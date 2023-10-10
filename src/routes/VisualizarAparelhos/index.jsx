@@ -45,7 +45,7 @@ export default function VisualizarAparelhos() {
                 <p>Preço: R$ {aparelho.preco}</p>
                 <div className="visu-button">
                   <button>
-                    <Link className="link" to="/">
+                    <Link className="link" to="/aparelhos">
                       Voltar
                     </Link>
                   </button>

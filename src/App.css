@@ -40,7 +40,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 380px;
+            width: 340px;
             min-height: 430px;
             padding: 10px;
             flex-direction: column;
@@ -110,7 +110,7 @@
   
       & .grid-visu2 {
         display: flex;
-        height: 500px;
+        height: 400px;
         width: 30%;
         justify-content: center;
         align-items: center;
@@ -312,7 +312,7 @@ footer {
             }
 
             & p {
-                font-size: 120%;
+                font-size: 110%;
                 margin: 0 2%;
             }
         }
