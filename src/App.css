@@ -11,12 +11,89 @@
 }
 
 .aparelhos{
-    grid-area: 150px;
-    
-    & img{
-        width: auto;
+    display: inline-grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    & .grid-container-aparelho{
+        /* display: inline-grid; */
+        border: 7px solid #87cefa;
+        grid-auto-columns: 350px;
+        width: 100%;
+        
+        
+
+
+        & .grid-aprl1{
+            border: 7px solid green;
+            
+
+
+
+            & h1{
+                padding: 10px;
+                color: white;
+            }
+        }
+
+        & .grid-aprl2{
+            border: 7px solid yellow;
+            width: 80%;
+            margin-left: 10%;
+            gap: 20px;
+            display: flex;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+
+            flex-wrap: wrap;
+        }
+
+        & .grid-aprl3{
+            border: 7px solid red;
+            background-color: #7f28d099;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            min-height: 430px;
+            padding: 10px;
+            flex-direction: column;
+
+            & img{
+                width: 240px;
+                height: auto;
+                padding-bottom: 10px;
+            }
+
+            & .link {
+                color: white;
+                text-decoration: none;
+                width: 250px;
+                text-align: center;
+                padding-bottom: 10px;
+
+                & p:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            & button{
+                background-color: #30114e;
+                color: white;
+                padding: 10px 15px;
+                border: #28004d;
+                border-radius: 7px;
+                box-shadow: 4px 5px 8px #28004d99;
+
+                & button:hover{
+                    background-color: #ffffff ;
+                }
+            }
+
+        }
     }
-    
 }
 
 .error{

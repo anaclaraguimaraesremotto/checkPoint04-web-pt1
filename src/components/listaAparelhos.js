@@ -2,7 +2,7 @@ export const listaAparelhos = [
     {
         modelo: 'S6 Lite',
         marca: 'Samsung',
-        descricao: 'Tablet Samsung S6 Lite P619 com Caneta S Pen, Capa Protetora, Tela 10.4", 128GB, 4G, Wi-fi, Câmera 8MP, Android 12 e Processador Octa Core - Cinza',
+        descricao: 'Tablet Samsung S6 Lite, Tela 10.4", 128GB, Câmera 8MPe Processador Octa Core',
         preco: '2.249,10',
     },
     {
@@ -21,7 +21,7 @@ export const listaAparelhos = [
     {
         modelo: 'Moto E22',
         marca: 'Motorola',
-        descricao: 'Smartphone Motorola Moto E22 Azul 128GB, 4GB RAM, Tela de 6.5", Câmera Traseira Dupla, Android 12 e Processador Octa Core',
+        descricao: 'Motorola Moto E22 Azul 128GB, Tela de 6.5", Câmera Traseira Dupla, e Processador Octa Core',
         preco: '799,00'
     },
     {
