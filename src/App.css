@@ -134,3 +134,54 @@
         }
     }
 }
+
+header {
+    display: flex;
+    color: #ffffff;
+    padding: 0.7rem 2rem;
+    background: linear-gradient(#28003f, 40%, #00067f);
+    
+    & .logo_titulo {
+        display: flex;
+        align-items: center;
+    }
+    
+    & ul {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        
+        & li {
+            margin: 0em 2em;
+            
+            & a {                
+                color: #e0c0ff;
+                text-decoration: none;
+                display: inline-block;
+                background: #7700e6;
+                padding: 0.8em;
+                border-radius: 5px;
+            }
+
+            & a:hover {
+                background-color: #ffffff30;
+            }
+        }
+    }
+}
+
+
+footer {
+    background: linear-gradient(#00067f,10%, #28003f);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    color: #ffffff;
+    text-align: center;
+
+    & p {
+        margin: 5px 0px;
+    }
+}

@@ -6,15 +6,15 @@ export default function Header() {
             <div className='logo_titulo'>
                 <span>
                     <Link to = '/'>
-                        <img src="img/Logo_ecommerce.png" alt="" />
+                        <img src="public\Logo_ecommerce.png" alt="" />
                     </Link>
                 </span>
                 <span>
-                    <h1>Smart Sell</h1>
+                    <h1>Smart <br></br>Sell</h1>
                 </span>
             </div>
             <ul>
-                <li className='item_menu'><Link to ='/'></Link>Home</li>
+                <li className='item_menu'><Link to ='/'>Home</Link></li>
                 <li className='item_menu'><Link to = '/aparelhos'>Aparelhos</Link></li>
             </ul>
         </header>
