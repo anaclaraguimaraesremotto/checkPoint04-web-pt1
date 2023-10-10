@@ -27,7 +27,7 @@ export default function Home(){
                     <div>
                         <Link to='http://localhost:5173/aparelhos/visualizar/Apple/iPad%20Pro%2011'>
                             <img src="public/apple-ipad-pro.jpg" alt="iPad Pro"/>
-                            <p>iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP</p>
+                            <p>Apple iPad Pro 11" 3ª geração (M1, Wi-Fi + Cellular, 2T) Prateado</p>
                             <p>De: <s>R$ 9.799,00</s><br/>Por: <b>R$ 8.623,12</b></p>
                         </Link>
                     </div>
