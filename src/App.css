@@ -12,19 +12,14 @@
 
 .aparelhos{
     display: inline-grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
 
     & .grid-container-aparelho{
         grid-auto-columns: 350px;
         width: 100%;
         
-        
-
-
         & .grid-aprl1{
             & h1{
-                padding: 10px;
+                padding: 20px;
                 color: white;
             }
         }
@@ -34,10 +29,8 @@
             margin-left: 10%;
             gap: 20px;
             display: flex;
-            /* display: flex; */
             justify-content: center;
             align-items: center;
-
             flex-wrap: wrap;
         }
 
@@ -85,6 +78,84 @@
 
         }
     }
+}
+
+.visualizar {
+  border: 5px solid rgb(0, 255, 0);
+  border-radius: 10px;
+  display: inline-grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  & .grid-container-visualizar {
+    border: 5px solid red;
+    border-radius: 10px;
+    display: flex; /* Adicione display: flex para criar um flex container */
+    width: 100%;
+
+    & .grid-visu1 {
+      border: 5px solid yellow;
+      border-radius: 10px;
+
+      & h1 {
+        padding: 20px;
+        color: white;
+      }
+
+    }
+        & .grid-visu2 {
+            border: 5px solid rgb(255, 24, 205);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            min-height: 430px;
+            padding: 10px;
+            flex-direction: column;
+            width: 50%;
+            /* margin-left: 10%; */
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+    
+                & img{
+                    width: 70%;
+                    height: auto;
+                    padding-bottom: 10px;
+                }
+        }
+    
+        & .grid-visu3 {
+            border: 5px solid rgb(0, 255, 195);
+            border-radius: 10px;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* width: 380px; */
+            /* min-height: 430px; */
+            /* padding: 10px; */
+            flex-direction: column;
+            width: 50%;
+            /* margin-left: 10%; */
+            /* gap: 20px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-wrap: wrap; */
+    
+            & p, .link{
+                padding: 10px;
+                color: white;
+            }
+    
+        }
+        
+    }
+
+    
 }
 
 .error{
