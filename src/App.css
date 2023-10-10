@@ -16,8 +16,6 @@
     grid-column-end: 3;
 
     & .grid-container-aparelho{
-        /* display: inline-grid; */
-        border: 7px solid #87cefa;
         grid-auto-columns: 350px;
         width: 100%;
         
@@ -25,11 +23,6 @@
 
 
         & .grid-aprl1{
-            border: 7px solid green;
-            
-
-
-
             & h1{
                 padding: 10px;
                 color: white;
@@ -37,7 +30,6 @@
         }
 
         & .grid-aprl2{
-            border: 7px solid yellow;
             width: 80%;
             margin-left: 10%;
             gap: 20px;
@@ -50,7 +42,6 @@
         }
 
         & .grid-aprl3{
-            border: 7px solid red;
             background-color: #7f28d099;
             border-radius: 10px;
             display: flex;
@@ -79,17 +70,17 @@
                 }
             }
 
-            & button{
+            & button {
                 background-color: #30114e;
                 color: white;
                 padding: 10px 15px;
-                border: #28004d;
+                border: none;
                 border-radius: 7px;
                 box-shadow: 4px 5px 8px #28004d99;
-
-                & button:hover{
-                    background-color: #ffffff ;
-                }
+            }
+            
+            & button:hover {
+                background-color: #b069f395;
             }
 
         }
