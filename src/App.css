@@ -12,45 +12,29 @@
 
 .aparelhos{
     display: inline-grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
 
     & .grid-container-aparelho{
-        /* display: inline-grid; */
-        border: 7px solid #87cefa;
         grid-auto-columns: 350px;
         width: 100%;
         
-        
-
-
         & .grid-aprl1{
-            border: 7px solid green;
-            
-
-
-
             & h1{
-                padding: 10px;
+                padding: 20px;
                 color: white;
             }
         }
 
         & .grid-aprl2{
-            border: 7px solid yellow;
             width: 80%;
             margin-left: 10%;
             gap: 20px;
             display: flex;
-            /* display: flex; */
             justify-content: center;
             align-items: center;
-
             flex-wrap: wrap;
         }
 
         & .grid-aprl3{
-            border: 7px solid red;
             background-color: #7f28d099;
             border-radius: 10px;
             display: flex;
@@ -79,21 +63,99 @@
                 }
             }
 
-            & button{
+            & button {
                 background-color: #30114e;
                 color: white;
                 padding: 10px 15px;
-                border: #28004d;
+                border: none;
                 border-radius: 7px;
                 box-shadow: 4px 5px 8px #28004d99;
-
-                & button:hover{
-                    background-color: #ffffff ;
-                }
+            }
+            
+            & button:hover {
+                background-color: #b069f395;
             }
 
         }
     }
+}
+
+.visualizar {
+  border: 5px solid rgb(0, 255, 0);
+  border-radius: 10px;
+  display: inline-grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  & .grid-container-visualizar {
+    border: 5px solid red;
+    border-radius: 10px;
+    display: flex; /* Adicione display: flex para criar um flex container */
+    width: 100%;
+
+    & .grid-visu1 {
+      border: 5px solid yellow;
+      border-radius: 10px;
+
+      & h1 {
+        padding: 20px;
+        color: white;
+      }
+
+    }
+        & .grid-visu2 {
+            border: 5px solid rgb(255, 24, 205);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            min-height: 430px;
+            padding: 10px;
+            flex-direction: column;
+            width: 50%;
+            /* margin-left: 10%; */
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+    
+                & img{
+                    width: 70%;
+                    height: auto;
+                    padding-bottom: 10px;
+                }
+        }
+    
+        & .grid-visu3 {
+            border: 5px solid rgb(0, 255, 195);
+            border-radius: 10px;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* width: 380px; */
+            /* min-height: 430px; */
+            /* padding: 10px; */
+            flex-direction: column;
+            width: 50%;
+            /* margin-left: 10%; */
+            /* gap: 20px; */
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-wrap: wrap; */
+    
+            & p, .link{
+                padding: 10px;
+                color: white;
+            }
+    
+        }
+        
+    }
+
+    
 }
 
 .error{

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Logo from '../../public/Logo_ecommerce.png'
 
 export default function Header() {
     return (
@@ -6,7 +7,7 @@ export default function Header() {
             <div className='logo_titulo'>
                 <span>
                     <Link to = '/'>
-                        <img src="public\Logo_ecommerce.png" alt="" />
+                        <img src={Logo} alt="logo" />
                     </Link>
                 </span>
                 <span>
